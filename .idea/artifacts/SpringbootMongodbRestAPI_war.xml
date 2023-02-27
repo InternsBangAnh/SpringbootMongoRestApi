@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringbootMongodbRestAPI:war">
+    <output-path>$PROJECT_DIR$/SpringbootMongodbRestAPI/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringbootMongodbRestAPI</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringbootMongodbRestAPI-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SpringbootMongodbRestAPI:war exploded" />
+    </root>
+  </artifact>
+</component>
